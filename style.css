@@ -10,6 +10,7 @@
   
   .logo > img {
     width: 50px;
+    margin: 20px;
   }
   
   p{
@@ -20,10 +21,16 @@
     list-style: none;
   }
 
-  .hamburguer{
+  .navbar{
+    text-align: left;
+    background-color: gray;
+    margin: 10px;
+  }
+
+  .hamburger{
     display: flex;
     justify-content: flex-end;
-    align-items: center;
+    color: white;
   }
   
           
@@ -32,7 +39,7 @@
       body { 
           background-color: red; 
       } 
-      .navbar{
+      .menu{
         display: none;
       }
       .logo{
@@ -71,7 +78,7 @@
       body { 
           background-color: yellow; 
       }
-      .navbar{
+      .menu{
         display: none;
       }
       header{
@@ -108,7 +115,7 @@
       body { 
           background-color: blue; 
       }
-      .navbar{
+      .menu{
         display: none;
       }
       header{
@@ -150,6 +157,12 @@
             display: flex;
             flex-direction: row-reverse;
             justify-content: flex-start;
+            margin: 10px;
+        }
+        .hamburger{
+          color: white;
+            align-self: center;
+            margin: 10px;
         }
         .menu{
             background-color: gray;
