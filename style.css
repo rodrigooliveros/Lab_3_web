@@ -12,6 +12,19 @@
     width: 50px;
   }
   
+  p{
+    text-align: center;
+  }
+
+  .menu li{
+    list-style: none;
+  }
+
+  .hamburguer{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+  }
   
           
   /* Media Query for Mobile Devices */ 
@@ -134,9 +147,9 @@
       }
         .navbar{
             display: contents;
-            /*display: flex;
-            flex-direction: row;
-            justify-content: space-between;*/
+            display: flex;
+            flex-direction: row-reverse;
+            justify-content: flex-start;
         }
         .menu{
             background-color: gray;
